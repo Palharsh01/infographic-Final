@@ -1,5 +1,5 @@
 document.getElementById('screenshotBtn').addEventListener('click', async () => {
-  const response = await fetch('http://localhost:3000/screenshot', {
+  const response = await fetch('https://infographic-final.onrender.com/screenshot', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ url: window.location.href })
