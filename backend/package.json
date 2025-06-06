@@ -1,14 +1,13 @@
 {
-  "name": "screenshot-backend",
+  "name": "screenshot-api",
   "version": "1.0.0",
-  "main": "server.js",
-  "type": "commonjs",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js",
+    "postinstall": "puppeteer install"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "puppeteer": "^21.3.8",
+    "express": "^4.18.0",
+    "puppeteer": "^21.0.0",
     "cors": "^2.8.5"
   }
 }
