@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: infographic-Final
+    env: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
